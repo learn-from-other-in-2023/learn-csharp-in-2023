@@ -16,18 +16,32 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentat
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{2D7E825A-E1D9-4E64-81E3-7F55892073DF}"
-	ProjectSection(SolutionItems) = preProject
-		Source\B.txt = Source\B.txt
-	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{C541094C-DE30-4A7F-98F8-C2176CFCECA3}"
 	ProjectSection(SolutionItems) = preProject
 		Tests\C.txt = Tests\C.txt
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CSharp", "CSharp", "{E2A409CB-B6A7-40CE-8A70-5FF68147A05D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DesignPatterns", "DesignPatterns", "{90F6E6D1-BEFA-4418-A9A9-44EC8BE8C2AE}"
+	ProjectSection(SolutionItems) = preProject
+		Source\DesignPatterns\B1.txt = Source\DesignPatterns\B1.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DSA", "DSA", "{7C56EBB2-5B86-4D38-AE3E-3CB70AD768EF}"
+	ProjectSection(SolutionItems) = preProject
+		Source\DSA\B2.txt = Source\DSA\B2.txt
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E2A409CB-B6A7-40CE-8A70-5FF68147A05D} = {2D7E825A-E1D9-4E64-81E3-7F55892073DF}
+		{90F6E6D1-BEFA-4418-A9A9-44EC8BE8C2AE} = {2D7E825A-E1D9-4E64-81E3-7F55892073DF}
+		{7C56EBB2-5B86-4D38-AE3E-3CB70AD768EF} = {2D7E825A-E1D9-4E64-81E3-7F55892073DF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {482E1E36-68AD-4904-A1B0-54F8BF596D06}
