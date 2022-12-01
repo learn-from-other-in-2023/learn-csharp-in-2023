@@ -32,6 +32,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ForeachLoops", "ForeachLoop
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{504FF1C7-83A4-4F11-B546-E25ACDD76A8F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NamesGenerator.Lib", "NamesGenerator.Lib\NamesGenerator.Lib.csproj", "{69452451-CBDD-437A-AE97-28FEE377F5EA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,6 +44,10 @@ Global
 		{B2CAB671-4CFA-42A1-842C-D034E0C11D9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B2CAB671-4CFA-42A1-842C-D034E0C11D9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B2CAB671-4CFA-42A1-842C-D034E0C11D9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69452451-CBDD-437A-AE97-28FEE377F5EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69452451-CBDD-437A-AE97-28FEE377F5EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69452451-CBDD-437A-AE97-28FEE377F5EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69452451-CBDD-437A-AE97-28FEE377F5EA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -52,6 +58,7 @@ Global
 		{661CB5CA-747C-4331-AA2C-3AFA326A15D6} = {2D7E825A-E1D9-4E64-81E3-7F55892073DF}
 		{F71242BD-F6C3-4AD5-BA81-ACAAE156678B} = {2D7E825A-E1D9-4E64-81E3-7F55892073DF}
 		{504FF1C7-83A4-4F11-B546-E25ACDD76A8F} = {2D7E825A-E1D9-4E64-81E3-7F55892073DF}
+		{69452451-CBDD-437A-AE97-28FEE377F5EA} = {504FF1C7-83A4-4F11-B546-E25ACDD76A8F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {482E1E36-68AD-4904-A1B0-54F8BF596D06}
